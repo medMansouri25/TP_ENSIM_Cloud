@@ -8,8 +8,8 @@ out/
 
 # Environment variables (CONTIENT DES SECRETS)
 .env
-.env.local
-.env.*.local
+.env.*
+!.env.example
 
 # Bun
 bun.lockb
